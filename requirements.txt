@@ -1,0 +1,17 @@
+# Core Python version
+#python>=3.10
+
+# API connections
+requests
+httpx
+
+# Data treatment
+pandas
+numpy
+
+# Optional: for environment variables and config
+python-dotenv
+
+# Optional: for data visualization
+matplotlib
+seaborn

@@ -1,0 +1,54 @@
+# === Virtual Environments ===
+# Ignore the environment folder itself, regardless of name
+venv/
+.venv/
+env/
+
+# === Byte-compiled files ===
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === OS and IDE Files ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+# Note: You can uncomment the line above if you want to ignore ALL VS Code settings.
+# If you want to share specific launch configurations or settings.json, you can keep .vscode/ tracked.
+
+# PyCharm/IntelliJ
+.idea/
+
+# === Data, Logs, and Output Files ===
+# Ignore large or generated data files (as per the structure recommendation)
+data/processed/
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.feather
+*.h5
+
+# Log files
+*.log
+/logs/
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# === Jupyter Notebook Files ===
+# Notebook checkpoint directories
+.ipynb_checkpoints/
+
+# === Distribution and Packaging ===
+# Python packaging files
+build/
+dist/
+*.egg-info/
